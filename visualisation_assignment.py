@@ -54,7 +54,7 @@ def plot_off_def_graph():
     None.
 
     """
-    plt.figure(figsize = (8 , 8))
+    plt.figure(figsize = (9 , 9))
     plt.plot(intl_teams_data['name'], intl_teams_data['off'], label = 'Offensive Rating')
     plt.plot(intl_teams_data['name'], intl_teams_data['def'], label = 'Defensive Rating')
     plt.xticks(rotation = 90)
